@@ -5,10 +5,9 @@
 <title>MeliStats</title>
 </head>
 <body>
-	<div style="position: relative; top: 40px; left: 20px; width: 96%;">
+	<div>
 		<h1>
-			<span class="label label-success" style="background-color: #D9534F;">Búsquedas
-				más realizadas</span>
+			<span class="label label-success" style="background-color: #D9534F;">Búsquedas más realizadas</span>
 		</h1>
 		<g:render template="busqueda" bean="${busquedasMasRealizadas[0]}" />
 		<g:render template="busqueda" bean="${busquedasMasRealizadas[1]}" />
@@ -16,10 +15,9 @@
 	</div>
 
 
-	<div style="position: relative; top: 40px; left: 20px; width: 96%;">
+	<div>
 		<h1>
-			<span class="label label-success" style="background-color: #D9534F;">Búsquedas
-				recientes</span>
+			<span class="label label-success" style="background-color: #D9534F;">Búsquedas recientes</span>
 		</h1>
 		<g:render template="busqueda" bean="${busquedasMasRecientes[0]}" />
 		<g:render template="busqueda" bean="${busquedasMasRecientes[1]}" />
