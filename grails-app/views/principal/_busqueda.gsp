@@ -3,7 +3,7 @@
 		<g:if test="${it != null}">
 			<div class="alert alert-info" role="alert">
 				<h4>
-					<a href="/MeliStats/estadisticas/${it.descripcion}">
+					<a href="${createLink(controller: 'estadistica', action: 'index', params: [busqueda: it.descripcion])}">
 						${it.descripcion}
 					</a>
 				</h4>
